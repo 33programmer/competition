@@ -4602,6 +4602,10 @@ input[type="button"].btn-block {
   white-space: nowrap;
 }
 
+a.navbar-brand {
+  width: 75%;
+}
+
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
 }
@@ -11464,7 +11468,7 @@ p {
 }
 
 .navbar-light .navbar-toggler-icon {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgb(230, 184, 0);
 }
 
 .navbar-dark .navbar-toggler-icon {
@@ -11686,6 +11690,10 @@ pre .code {
   padding: 60px 10px;
 }
 
+.section-body {
+  margin: 3% 0px;
+}
+
 .section:nth-child(odd) {
   background-color: #f1fafb;
 }
@@ -11701,4 +11709,13 @@ pre .code {
 .section.bg-overlay {
   background: #000000;
   color: #fff;
+}
+
+.info-text, p{
+  text-indent: 5%;
+}
+
+.center {
+  margin: 2% auto;
+  width: 60%;
 }
