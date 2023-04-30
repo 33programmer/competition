@@ -11719,3 +11719,8 @@ pre .code {
   margin: 2% auto;
   width: 60%;
 }
+
+.compensation-table {
+  text-align: center;
+  margin-top: 2%;
+}
