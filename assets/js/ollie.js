@@ -62,3 +62,20 @@ $('#owl-testmonial').owlCarousel({
     nav: true,
     dots: false
 })
+
+
+// Scroll to specific values
+// scrollTo is the same
+window.scroll({
+    top: 50, 
+    left: 0, 
+    behavior: 'smooth'
+  });
+  
+  // Scroll certain amounts from current position 
+  window.scrollBy({ 
+    top: -50, // could be negative value
+    left: 0, 
+    behavior: 'smooth' 
+  });
+  
